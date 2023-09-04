@@ -1,0 +1,62 @@
+.discount-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50fr 50fr;
+  grid-gap: 20px;
+}
+
+.discount-text-container {
+  height: 397px;
+  width: 750px;
+  gap: 60px;
+  margin-top: 200px;
+  margin-left: 250px;
+}
+
+.discount-image-container {
+  height: 638px;
+  width: 457px;
+}
+
+.discount-text-container-paragraph {
+  font-size: 20px;
+  font-family: "Inter";
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.discount-text-container-heading1 {
+  font-size: 40px;
+  font-family: "Inter";
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.discount-text-container-heading4 {
+  font-size: 30px;
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.discount-list {
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.discount-text-container-bottom-button {
+  height: 51px;
+  width: 180px;
+  padding: 16px 40px 16px 40px;
+  border-radius: 30px;
+  gap: 5px;
+  background-color: #f27a44;
+  border-width: 0px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: 19px;
+}

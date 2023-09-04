@@ -1,0 +1,119 @@
+.banner-grid-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: beige;
+}
+.banner-left-container {
+  width: 318px;
+  height: 260px;
+}
+.banner-sub-title {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1f2027;
+  margin-top: 100px;
+}
+.banner-title {
+  font-family: "Poppins";
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.banner-title-2 {
+  font-family: "Inter";
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.banner-desc {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #505c59;
+}
+.sign-up-btn {
+  height: 25px;
+  width: 82px;
+  color: white;
+  background-color: #f27c45;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 15px;
+  font-size: 12px;
+}
+.banner-img {
+  width: 250px;
+  height: 350px;
+  margin-left: 50px;
+}
+@media (min-width: 768px) {
+  .banner-grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: beige;
+  }
+  .banner-left-container {
+    width: 636px;
+    height: 521px;
+  }
+  .banner-sub-title {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1f2027;
+    margin-top: 200px;
+  }
+  .banner-title {
+    font-family: "Poppins";
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .banner-title-2 {
+    font-family: "Inter";
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .banner-desc {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #505c59;
+  }
+  .sign-up-btn {
+    height: 51px;
+    width: 165px;
+    color: white;
+    background-color: #f27c45;
+    border-width: 0px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 30px;
+  }
+  .banner-img {
+    width: 541px;
+    height: 737px;
+  }
+}

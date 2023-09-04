@@ -1,0 +1,191 @@
+.explore-comment-container {
+  height: 100px;
+  width: 220px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 50px;
+  margin-bottom: 25px;
+}
+.avatar-img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+.explore-name {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+.explore-bubble {
+  height: 84px;
+  width: 84px;
+  background-color: transparent;
+  border: 15px solid #87cc81;
+  border-radius: 42px;
+  margin-left: 100px;
+}
+.explore-desc {
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #000000;
+}
+.explore-title-1 {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+.explore-title-2 {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+.explore-title-3 {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+.explore-list-container {
+  list-style-type: disc;
+}
+.explore-list-item {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+.explore-btn {
+  width: 100px;
+  height: 40px;
+  padding: 8px 12px 8px 12px;
+  border-radius: 25px;
+  background-color: #f27a44;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  font-size: 12px;
+}
+.explore-right-container {
+  margin-left: 150px;
+}
+@media (min-width: 768px) {
+  .comments-container {
+    margin-top: 200px;
+  }
+  .explore-comment-container {
+    height: 130px;
+    width: 360px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+  }
+  .explore-bubble {
+    height: 168px;
+    width: 168px;
+    background-color: transparent;
+    border: 30px solid #87cc81;
+    border-radius: 84px;
+    margin-left: 200px;
+  }
+  .avatar-img {
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
+  }
+  .explore-name {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+  }
+  .explore-desc {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #000000;
+  }
+  .explore-title-1 {
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+  }
+  .explore-title-2 {
+    font-family: "Inter";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+  }
+  .explore-title-3 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+  }
+  .explore-list-container {
+    list-style-type: disc;
+  }
+  .explore-list-item {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+  }
+  .explore-btn {
+    width: 200px;
+    height: 51px;
+    padding: 16px 50px 16px 50px;
+    border-radius: 30px;
+    gap: 16px;
+    background-color: #f27a44;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border-width: 0px;
+  }
+  .explore-right-container {
+    margin-left: 300px;
+  }
+}

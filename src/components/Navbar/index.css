@@ -1,0 +1,96 @@
+.courses-btn {
+  height: 20px;
+  width: 80px;
+  background-color: #f27c45;
+  padding: 10px, 22px, 10px, 22px;
+  border-radius: 15px;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  color: white;
+  margin-top: 20px;
+  margin-right: 120px;
+}
+
+.navbar-left {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.nav-grid {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.features-container {
+  display: none;
+}
+
+hr {
+  border-color: #e7e5ea;
+  border-width: 1px;
+}
+
+.feature {
+  padding: 10px;
+  color: grey;
+  font-size: 14px;
+  font-family: "Roboto";
+  margin-right: 10px;
+  margin-left: 20px;
+}
+.top-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar-right {
+  display: flex;
+  flex-direction: row;
+}
+.feature-offer {
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .navbar-left {
+    justify-content: flex-end;
+  }
+
+  .features-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .feature {
+    color: #594d6d;
+    font-size: 16px;
+    align-self: flex-end;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .bar-icon {
+    display: none;
+  }
+  .courses-btn {
+    height: 40px;
+    width: 100px;
+    background-color: #f27a44;
+    padding: 16px, 32px, 16px, 32px;
+    border-radius: 30px;
+    font-weight: 18px;
+    margin-top: 20px;
+  }
+  .nav-grid {
+    display: grid;
+    grid-template-columns: 55% 45%;
+  }
+  .navbar-right {
+    justify-content: flex-end;
+  }
+}

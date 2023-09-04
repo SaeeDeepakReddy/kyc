@@ -1,0 +1,62 @@
+.university-name {
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+  margin: 10px;
+}
+.three-dots-container {
+  height: 40px;
+  width: 40px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 5px;
+}
+.navigators {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.left-arrow {
+  font-size: 42px;
+  color: black;
+  margin: 10px;
+}
+.right-arrow {
+  font-size: 42px;
+  color: red;
+  margin: 10px;
+}
+.navigator-no {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+.university-card-container {
+  width: 320px;
+}
+.university-img {
+  width: 320px;
+  height: 327px;
+}
+.university-address {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+}
+.university-address-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px, 25px, 25px, 25px;
+}
